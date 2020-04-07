@@ -41,6 +41,8 @@ $ source venv/bin/activate
 Collecting PySocks==1.6.8 (from -r requirements.txt (line 1))
 ...
 
+(venv) $ sudo apt install tor
+
 (venv) $ python pwndb.py -h
 
 usage: pwndb.py [-h] [--target TARGET] [--list LIST] [--output OUTPUT]
